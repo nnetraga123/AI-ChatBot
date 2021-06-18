@@ -1,14 +1,16 @@
 # My App
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+A Java chatbox application where the bot is powered by AI. The AI uses AIML files to generate the appropriate response. The Bot is coded in as a Bean as well as the ExecutorService. This smiplifies the App from previos verison of AIML implementation.
+
+The Front-end is based on the Vaadin Framework which make UI development in java easy to use. 
+
+Instructions below on how to run it! As it is a Maven project, Java and Maven are pre-requisites for the project.
 
 ## Running the application
 The project is a standard Maven project. To run it from the command line, type `mvn` and open http://localhost:8080 in your browser.
 
 You can also import the project to your IDE of choice as you would with any
-Maven project. Read more on [how to set up a development environment for
-Vaadin projects](https://vaadin.com/docs/latest/guide/install) (Windows, Linux, macOS).
+Maven project. 
 
 ## Deploying to Production
 To create a production build, call `mvn clean package -Pproduction`.
@@ -22,20 +24,8 @@ Once the JAR file is built, you can run it using
 ## Project structure
 
 - `MainView.java` in `src/main/java` contains the navigation setup (i.e., the 
-  side/top bar and the main menu). This setup uses 
-  [App Layout](https://vaadin.com/components/vaadin-app-layout).
-- `views` package in `src/main/java` contains the server-side Java views of your application.
-- `views` folder in `frontend/` contains the client-side JavaScript views of your application.
-- `themes` folder in `frontend/`  contains the custom CSS styles.
+  side/top bar and the main menu).
+- `views` package in `src/main/java` contains the server-side Java views of the application.
+- `views` folder in `frontend/` contains the client-side JavaScript views of the application.
 
-## Useful links
-
-- Read the documentation at [vaadin.com/docs](https://vaadin.com/docs).
-- Follow the tutorials at [vaadin.com/tutorials](https://vaadin.com/tutorials).
-- Watch training videos and get certified at [vaadin.com/learn/training]( https://vaadin.com/learn/training).
-- Create new projects at [start.vaadin.com](https://start.vaadin.com/).
-- Search UI components and their usage examples at [vaadin.com/components](https://vaadin.com/components).
-- Find a collection of solutions to common use cases in [Vaadin Cookbook](https://cookbook.vaadin.com/).
-- Find Add-ons at [vaadin.com/directory](https://vaadin.com/directory).
-- Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/vaadin) or join our [Discord channel](https://discord.gg/MYFq5RTbBn).
-- Report issues, create pull requests in [GitHub](https://github.com/vaadin/).
+Please feel free to make any changes and let me know!
