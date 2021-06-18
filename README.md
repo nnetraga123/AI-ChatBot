@@ -29,3 +29,5 @@ Once the JAR file is built, you can run it using
 - `views` folder in `frontend/` contains the client-side JavaScript views of the application.
 
 Please feel free to make any changes and let me know!
+
+![image](https://user-images.githubusercontent.com/77019883/122494335-09bb8a00-cf9e-11eb-83af-739f6d02501f.png)
